@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.jumbotron {
+    background-color: #404040;
+    color: white
+}
+
+body {
+
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.col-sm-4 {
+    border: solid;
+}
+
+#search-button {
+    background-color: rgb(24, 62, 75);
+}
+
+#current-weather {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightslategray;
+}
+
+#future-weather {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forecast {
+    background-color: rgb(24, 62, 75);
+    font-size: 0.9em;
+}
+
+span {
+    font-size: 1em;
+}
+
+li:hover {
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    color: #48555c;
+    background-color: rgb(45, 48, 51);
+    padding: 10px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
